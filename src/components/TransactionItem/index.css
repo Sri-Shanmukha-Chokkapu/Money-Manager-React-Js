@@ -1,0 +1,64 @@
+* {
+  font-family: 'Roboto';
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.transaction-text {
+  color: #475569;
+  font-size: 12px;
+  width: 30%;
+}
+
+.delete-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.transaction-type {
+  color: #475569;
+  font-size: 15px;
+  flex-shrink: 1;
+  min-width: 70%;
+}
+
+.delete-button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-img {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-item {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .transaction-text {
+    font-size: 14px;
+  }
+
+  .delete-img {
+    margin-right: 10px;
+  }
+}
